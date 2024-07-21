@@ -1027,6 +1027,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1059526453}
   - component: {fileID: 1059526452}
+  - component: {fileID: 1059526454}
   m_Layer: 0
   m_Name: Porta_fechada
   m_TagString: Untagged
@@ -1101,6 +1102,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1059526454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059526451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c008f954fe54a8bb972de1018a2cb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RootBone: {fileID: 0}
+  m_BoneTransforms: []
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_AlwaysUpdate: 1
+  m_AutoRebind: 0
 --- !u!1 &1072188636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1543,6 +1563,7 @@ MonoBehaviour:
   minX: -24.57
   maxX: 15.34
   timelerp: 0.9
+  positionY: 0
 --- !u!1 &1489547646
 GameObject:
   m_ObjectHideFlags: 0
@@ -5748,21 +5769,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3224283732092830106, guid: 21823cd3bd9a9bd45a7273610b9e6114, type: 3}
-      propertyPath: m_SortingOrder
-      value: 35
-      objectReference: {fileID: 0}
     - target: {fileID: 5061793169012524197, guid: 21823cd3bd9a9bd45a7273610b9e6114, type: 3}
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5061793169012524197, guid: 21823cd3bd9a9bd45a7273610b9e6114, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.62
+      value: -10.58
       objectReference: {fileID: 0}
     - target: {fileID: 5061793169012524197, guid: 21823cd3bd9a9bd45a7273610b9e6114, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.25
+      value: 0.34
       objectReference: {fileID: 0}
     - target: {fileID: 5061793169012524197, guid: 21823cd3bd9a9bd45a7273610b9e6114, type: 3}
       propertyPath: m_LocalPosition.z
