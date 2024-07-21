@@ -27,7 +27,7 @@ public class Typewriter : MonoBehaviour
         var TextWriterTween = DOTween.To( () => tweenText, x => tweenText = x, finalText, finalText.Length / WriteSpeed).OnUpdate(()=>
         {
             UIText.text = tweenText;
-        });
+        }).SetEase(Ease.Linear);
     }
 
 }
