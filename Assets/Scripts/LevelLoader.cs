@@ -9,6 +9,11 @@ public class LevelLoader : MonoBehaviour
         StartCoroutine(LoadLevelDelayed(levelName));
     }
 
+    public void LoadLevelWithoutDelay(string levelName)
+    {
+        SceneManager.LoadScene(levelName);
+    }
+
     IEnumerator LoadLevelDelayed(string levelName)
     {
         yield return new WaitForSeconds(1);
